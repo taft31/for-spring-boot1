@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Hello World!</title>
+</head>
+<body>
+<h1 th:inline="text">Hello.v.2</h1>
+<p th:text="${students}"></p>
+<li th:each="student : ${students}">
+    <a href="#">¹þ¹þ</a>
+</body>
+</html>
